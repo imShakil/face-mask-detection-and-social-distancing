@@ -127,3 +127,25 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.idea
+.idea/
+.vscode
+.vscode/
+.ensime_cache
+.ensime
+.ensime/
+.ensime_cache/
+.eclipse
+.eclipse/
+.pydevproject
+.pydevproject/
+.pydev
+.pydev/
+.settings
+.settings/
+.config
+.config/
+.project
+.project/
+
