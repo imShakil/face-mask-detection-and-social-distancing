@@ -15,7 +15,7 @@ arg.add_argument("-d", "--distance", type=float, default=100.0, help="pixels dis
 arg.add_argument("--frames", type=int, default=20, help="number of frames to skip while testing video")
 args = vars(arg.parse_args())
 
-labelsPath = "coco.names"
+labelsPath = "yolo-coco/coco.names"
 LABELS = open(labelsPath).read().strip().split("\n")
 np.random.seed(42)
 COLORS = np.random.randint(0, 255, size=(len(LABELS), 3),
