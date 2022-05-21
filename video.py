@@ -10,7 +10,7 @@ import cv2
 import math
 
 arg = argparse.ArgumentParser()
-arg.add_argument("--video", required=True, help="path to input video")
+arg.add_argument("--video", default="sample_videos/test.mp4", help="path to input video")
 arg.add_argument("-d", "--distance", type=float, default=100.0, help="pixels distance to calculate social distance")
 arg.add_argument("--frames", type=int, default=20, help="number of frames to skip while testing video")
 args = vars(arg.parse_args())
